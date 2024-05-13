@@ -161,3 +161,6 @@ def predict_depression():
 
     print(result, info)
     return jsonify({"result": result, "info": info})
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', debug=False)
