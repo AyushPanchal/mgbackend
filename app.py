@@ -18,11 +18,6 @@ alzheimer_model = load_model('models/alzheimer_model.h5')
 brain_tumour_model = load_model('models/brain_tumour_model.h5')
 
 
-@app.route("/", methods=["GET"])
-def hello():
-    return "Hello world"
-
-
 @app.route('/predict_alzheimer', methods=['POST'])
 def predict_alzheimer():
     if 'image' not in request.files:
@@ -162,3 +157,6 @@ def predict_depression():
     print(result, info)
     return jsonify({"result": result, "info": info})
 
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
