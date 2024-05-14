@@ -12,6 +12,8 @@ flatbuffers==24.3.25
 fonttools==4.25.0
 google-auth==2.29.0
 google-auth-oauthlib==0.4.6
+scikit-learn
+joblib
 h11==0.14.0
 httpcore==1.0.5
 httptools==0.6.1
