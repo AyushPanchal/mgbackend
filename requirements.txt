@@ -1,5 +1,5 @@
 ﻿# Python version: 3.10.13 (replace with your desired version)
-
+python==3.10.13
 aiohttp-retry==2.8.3
 annotated-types==0.6.0
 astunparse==1.6.3
