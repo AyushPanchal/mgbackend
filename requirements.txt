@@ -28,6 +28,7 @@ orjson==3.10.3
 ply==3.11
 protobuf==3.19.6
 pyasn1-modules==0.2.8
+pandas
 pydantic==2.7.1
 pydantic_core==2.18.2
 PyQt5==5.15.10
