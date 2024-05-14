@@ -41,7 +41,7 @@ tensorboard==2.10.1
 tensorboard-data-server==0.6.1
 tensorflow==2.10.0
 tensorflow-estimator==2.10.0
-tensorflow-intel==2.15.0
+tensorflow-intel==2.10.0
 tensorflow-io-gcs-filesystem==0.31.0
 tqdm==4.66.2
 twilio==9.0.5
